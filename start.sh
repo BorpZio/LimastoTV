@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/BorpZio/LimastoTV /LimastoTV
+  git clone https://github.com/BorpZio/LimastoTV/LimastoTV
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /LimastoTV
